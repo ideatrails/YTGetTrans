@@ -2,7 +2,8 @@
 # -----------------------------------------------------------------------------
 # Create or update Corpus Transcript / wordclouds driver script
 # -----------------------------------------------------------------------------
-AppDir="/home/coolin/staging/vidory/YTGetTrans"
+AppDir=${APPDIR_YTTRANS}
+VenvCmd_wsl="${AppDir}/linvenv/bin/activate"
 SrcTransDir="../transcripts"
 VenvCmd_wsl="./linvenv/bin/activate"
 
